@@ -18,8 +18,7 @@
 }
 
 html {
-  padding: 0;
-  margin: 0;
+
   box-sizing: border-box;
 }
 
@@ -230,10 +229,11 @@ button.active {
   font-weight: normal;
  }
 
- .section.no-padding {
+ .section.no-buttom{
    padding-top: 0;
-   padding-bottom: 0;
+   
  }
+
 
   .list {
     background-color: var(--primary-secondary);
