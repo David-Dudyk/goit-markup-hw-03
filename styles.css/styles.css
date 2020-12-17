@@ -18,16 +18,15 @@
 }
 
 html {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-
-
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-
 }
 
 body {
@@ -47,15 +46,11 @@ body {
 
 /* header*/
 .header-color {
-  padding-bottom: 0;
-padding-top: 0;
-margin: 0;
-  background-color: skyblue;  /* var(--primary-secondary);*/
+  background-color: var(--primary-secondary);
 
  }
   .main-color {
-    
-      background-color: var(--primary-secondary);
+    background-color: var(--primary-secondary);
   }
  
 
@@ -74,21 +69,23 @@ margin: 0;
 }
 
 .title-second {
-    font-family: Roboto;
+  font-family: Roboto;
    
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
 
     color: var(--title-text-color);
 }
 
 .title-third {
+  margin-top: 0;
+  margin-bottom: 0;
 
-    color: var(--title-text-color);
-    font-family: Roboto;
-    line-height: 16px;
-    text-transform: uppercase;
+  color: var(--title-text-color);
+  font-family: Roboto;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 
 .title-fouth {
@@ -115,13 +112,12 @@ body {
     text-decoration: none;
   }
   ul {
-    padding-bottom: 0;
-    padding-top: 0;
+    padding: 0;
     margin: 0;
     list-style: none;
   }
 
-  /* контейнер с примера*/
+  /* container */
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -209,13 +205,13 @@ button.active {
     color: var(--title-text-color);
 }
  /* Hero */
+
  .hero {
+   text-align: center;
     background-color: var(--secondary-accent);
 
  }
  .hero-title {
-    margin-top: 0;
-    margin-bottom: 0;
     color: var(--title-text-color);
  }
 
@@ -223,9 +219,11 @@ button.active {
  /* Section */
 
  .section {
+   padding-top: 94px;
+   padding-bottom: 94px;
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
 
 
  }
@@ -235,6 +233,8 @@ font-weight: normal;
     width: 370px;
   }
   .p-section {
+    margin-top: 10px;
+    margin-bottom: 0;
     font-family: Roboto;
     font-size: 14px;
     line-height: 24px;
@@ -245,11 +245,11 @@ font-weight: normal;
 
 /* team */
 .team {
-
     background-color: var(--secondary-background-color);
 }
   
 .team p {
+
     font-size: 16px;
     line-height: 1.2;
 }
@@ -288,8 +288,7 @@ nav a {
     
 }
   .contact-links a {
-    padding: o;
-    margin: 0;
+
     color: #757575;
     font-weight: 400;
     font-size: 14px;
@@ -343,9 +342,7 @@ footer {
   }
 
   .contact-links { 
-    padding-bottom: 0;
-padding-top: 0;
-margin: 0;
+
     font-family: Roboto;
     color: rgba(255, 255, 255, 0.6);
 }
