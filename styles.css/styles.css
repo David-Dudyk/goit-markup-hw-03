@@ -19,6 +19,8 @@
 
 html {
   box-sizing: border-box;
+
+
 }
 
 *,
@@ -45,9 +47,14 @@ body {
 
 /* header*/
 .header-color {
+  padding-bottom: 0;
+padding-top: 0;
+margin: 0;
   background-color: skyblue;  /* var(--primary-secondary);*/
+
  }
   .main-color {
+    
       background-color: var(--primary-secondary);
   }
  
@@ -55,13 +62,15 @@ body {
 /* style h */
 
 .title-one { 
-    font-family: Roboto;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
     
-    color: var(--primary-secondary);
+   color: var(--primary-secondary);
 }
 
 .title-second {
@@ -106,6 +115,9 @@ body {
     text-decoration: none;
   }
   ul {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0;
     list-style: none;
   }
 
@@ -117,6 +129,7 @@ body {
     padding-right: 0px;
     width: 1170px;
     outline: 2px solid tomato;
+    
 
   }
 
@@ -129,9 +142,12 @@ body {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    
+    
 }
 
 .logo span {
+  
     color: var(--accent-color);
     font-weight: 700;
 }
@@ -144,7 +160,7 @@ button {
   padding: 6px 22px;
   background-color: var(--secondary-background-color);
   color: var(--title-text-color);
-
+  border: 1px solid transparent;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -162,6 +178,7 @@ button {
   line-height: 30px;
   color: white;
   text-decoration: none;
+  margin-top: 30px;
 }
 
 
@@ -197,7 +214,9 @@ button.active {
 
  }
  .hero-title {
-     color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--title-text-color);
  }
 
 
@@ -207,11 +226,13 @@ button.active {
   font-family: Roboto;
 font-style: normal;
 font-weight: normal;
+
+
  }
 
   .list {
-      background-color: var(--primary-secondary);
-      width: 370px;
+    background-color: var(--primary-secondary);
+    width: 370px;
   }
   .p-section {
     font-family: Roboto;
@@ -262,13 +283,19 @@ nav a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    
+    
+    
 }
   .contact-links a {
+    padding: o;
+    margin: 0;
     color: #757575;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    
 }
 
 nav a:hover,
@@ -312,9 +339,13 @@ footer {
   address {
     font-family: Roboto;
     color: var(--primary-secondary);
+    
   }
 
   .contact-links { 
+    padding-bottom: 0;
+padding-top: 0;
+margin: 0;
     font-family: Roboto;
     color: rgba(255, 255, 255, 0.6);
 }
