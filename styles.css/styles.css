@@ -1,6 +1,6 @@
 /* main background colour #E5E5E5 */
 /* footer background colour #2F303A */
-/* main <h> colour #212121 */
+/* main colour #212121 */
 /* main text colour #757575 */
 /* accent color #2196F3 */
 :root {
@@ -10,7 +10,7 @@
   --primary-font-family: 'Roboto', sans-serif;
 
   --accent-color: #2196f3;
-  --text-color: #757575;
+  --accent-text-color: #757575;
   --title-color: #212121;
   --secondary-title-color: #ffffff;
 
@@ -25,6 +25,7 @@
 body {
   font-family: var(--primary-font-family);
 }
+
 /* base styles */
 h1 {
   font-weight: 900;
@@ -71,7 +72,7 @@ h5 {
 }
 
 p {
-  color: var(--text-color);
+  color: var(--accent-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -88,6 +89,10 @@ ul {
 /* button */
 
 button {
+  display: inline-block; /* вот тут остановился*/
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
+
   background-color: #f5f4fa;
   color: var(--title-color);
 
@@ -111,6 +116,13 @@ button.active {
   color: var(--secondary-title-color);
   background-color: var(--accent-color);
 }
+
+.container {
+  margin-left: 0px;
+  margin-right: 0px;
+  outline: 2px solid tomato;
+}
+
 
 /* header */
 .logo {
@@ -154,7 +166,7 @@ nav a.active,
   text-align: center;
 }
 
-/* quality */
+/* dignity */
 
 /* team */
 .team {
