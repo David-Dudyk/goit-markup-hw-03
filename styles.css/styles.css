@@ -22,11 +22,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+
 
 body {
   font-family: 'Helvatica Neuce', -apple-system, 
@@ -249,6 +245,7 @@ button.active {
   }
 
 /* team */
+
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -322,17 +319,27 @@ nav a.active,
 }
 
 /* footer */
+
+
+
+
+
 footer {
-    background-color: var(--secondary-accent);
-    font-family: var(--primary-font-family);
-  }
-  footer .logo {
-    color: var(--primary-secondary);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-  }
+
+  background-color: var(--secondary-accent);  
+  font-family: var(--primary-font-family);
+    
+  padding: 60px 0px 60px 0px;   
+}
+
+
+footer .logo {
+  color: var(--primary-secondary);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
   
   footer .logo span {
     font-weight: 700;
