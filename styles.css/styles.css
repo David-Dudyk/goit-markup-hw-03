@@ -68,7 +68,6 @@ body {
 }
 
 .title-second {
-  padding-bottom: 50px;
   margin: 0px;
   font-family: Roboto;
   font-weight: bold;
@@ -79,8 +78,6 @@ body {
 }
 
 .title-third {
-  padding-top: 94px;
-  padding-bottom: 10px;
   margin-top: 0;
   margin-bottom: 0;
 
@@ -240,6 +237,7 @@ button.active {
     width: 370px;
   }
   .p-section {
+    padding-top: 10px;
     margin-top: 0px;
     margin-bottom: 0;
     font-family: Roboto;
@@ -253,13 +251,23 @@ button.active {
 /* team */
 .team {
   padding-top: 94px;
-    background-color: var(--secondary-background-color);
+  padding-bottom: 94px;
+  background-color: var(--secondary-background-color);
 }
   
 .team p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.team h2 {
+  padding-bottom: 50px;
+  margin: 0;
+}
 
-    font-size: 16px;
-    line-height: 1.2;
+.team h3 {
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 
