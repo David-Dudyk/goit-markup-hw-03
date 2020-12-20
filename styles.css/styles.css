@@ -47,6 +47,8 @@ h5 {
   color: var(--title-color);
 }
 h2 {
+  margin-top: 94px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -55,6 +57,8 @@ h2 {
 }
 
 h3 {
+  margin-top: 20px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -62,6 +66,7 @@ h3 {
 }
 
 h4 {
+  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -94,7 +99,8 @@ ul {
 /* button */
 
 button {
-  display: inline-block; /* вот тут остановился*/
+  display: inline-block;
+  border: 1px solid transparent;
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
 
@@ -107,7 +113,16 @@ button {
   letter-spacing: 0.03em;
 }
 
+.btn { 
+  margin-top: 30px;
 
+  display: inline-block; /* вот тут остановился*/
+  border-radius: 4px;
+  padding: 10px 32px;
+  background-color: var(--accent-color);
+  color: var(--secondary-title-color);
+
+}
 
 
 button:hover,
@@ -126,15 +141,19 @@ button.active {
   background-color: var(--accent-color);
 }
 
+/* рама для формирования */
+
 .container {
   margin-left: 0px;
   margin-right: 0px;
+
   outline: 2px solid tomato;
 }
 
 
 /* header */
 .logo {
+  padding: 24px 0px 25px;
   color: #212121;
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
@@ -143,6 +162,7 @@ button.active {
   letter-spacing: 0.03em;
 }
 .logo span {
+
   color: var(--accent-color);
   font-weight: 700;
 }
@@ -173,22 +193,37 @@ nav a.active,
 .hero {
   background-color: var(--accent-background);
   text-align: center;
+
 }
 
 /* dignity */
 
+.dignity {
+  margin-top: 94px;
+}
+
+.dignity p {
+  margin-top: 10px;
+}
+
 /* team */
 .team {
+  margin-top: 94px;
   text-align: center;
   background-color: var(--secondary-background);
 }
 
 .team p {
+  margin-top: 10px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.2;
 }
 
 /* works */
+.works {
+  padding-top: 114px;
+}
 
 .works p {
   font-size: 16px;
@@ -200,6 +235,9 @@ nav a.active,
 }
 /* footer */
 footer {
+
+  padding: 60px 0px;
+
   background-color: var(--accent-background);
   font-family: var(--primary-font-family);
 }
@@ -218,9 +256,11 @@ footer .logo span {
 }
 
 footer address {
+  
   font-style: normal;
 }
 footer span {
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -228,6 +268,9 @@ footer span {
   color: var(--secondary-title-color);
 }
 footer a {
+
+  margin-top: 9px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
