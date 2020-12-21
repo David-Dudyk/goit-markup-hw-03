@@ -116,7 +116,7 @@ button {
 .btn { 
   margin-top: 30px;
 
-  display: inline-block; /* вот тут остановился*/
+  display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
   background-color: var(--accent-color);
@@ -133,6 +133,7 @@ button.active {
 }
 
 .button {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -141,7 +142,8 @@ button.active {
   background-color: var(--accent-color);
 }
 
-/* рама для формирования */
+
+/* рамkа для формирования */
 
 .container {
   margin-left: 0px;
@@ -235,9 +237,11 @@ nav a.active,
 /* works */
 .works {
   padding-top: 114px;
+  padding-bottom: 74px;
 }
 
 .works p {
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.9;
 }
@@ -245,7 +249,14 @@ nav a.active,
 .works a {
   color: var(--title-color);
 }
+
+.works ul {
+  margin-bottom: 50px;
+}
+
+
 /* footer */
+
 footer {
 
   padding: 60px 0px;
