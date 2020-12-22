@@ -385,6 +385,12 @@ footer address {
   flex-direction: column;
   align-items: flex-start;
 }
+footer .container-link li {
+  
+  margin: 0px 139px 0px 139px; 
+  padding: 9px 15px 0px 15px;
+  
+}
 
 footer .logo {
   display: block;
