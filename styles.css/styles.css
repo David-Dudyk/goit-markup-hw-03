@@ -46,8 +46,7 @@ h1 {
 }
 h2,
 h3,
-h4,
-h5 {
+h4, {
   color: var(--title-color);
 }
 h2 {
@@ -72,14 +71,6 @@ h4 {
   letter-spacing: 0.03em;
 }
 
-h5 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
 
 p {
   color: var(--text-color);
@@ -386,7 +377,7 @@ footer address {
   align-items: flex-start;
 }
 footer .container-link li {
-  
+
   margin: 0px 139px 0px 139px; 
   padding: 9px 15px 0px 15px;
   
